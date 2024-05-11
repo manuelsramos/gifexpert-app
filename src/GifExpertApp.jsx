@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
-import { AddCategory } from './components/AddCategory'
-import { GifGrid } from './components/GifGrid'
+import { AddCategory, GifGrid } from './components/'
 
 export const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState(['Saint Seiya'])
+    const [categories, setCategories] = useState([''])
 
 
     const onAddCategory = (onNewCategory) => {
@@ -34,11 +33,8 @@ export const GifExpertApp = () => {
                     />
                 ))
             }
-            {/*   <li>ABC</li> */}
 
 
-
-            {/* Gif Item */}
         </>
     )
 }
